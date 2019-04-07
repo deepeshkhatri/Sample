@@ -1,0 +1,124 @@
+/* Header Section */
+
+#header{
+    background-color: #474a56;
+    color: #fff;
+}
+
+.brand{
+  font-weight: 400;
+  font-size: 2.5rem;
+  padding: 0 3%;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+.container-fluid{
+  padding:0;
+  line-height: 1.5;
+}
+
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+
+#navbarNav{
+  padding: 0 3%;
+}
+
+.brand-img{
+  width: 3rem;
+  padding-bottom: .4rem;
+}
+
+/* About Me Section */
+#AboutMe{
+  text-align: center;
+  padding: 3% 0;
+  color: black;
+  background-color: #929aab;
+}
+
+.carousel-text{
+  font-size: 3rem;
+  line-height: 1;
+  padding: 0 0 4%;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.carousel-img{
+  border-radius: 20%;
+  padding-bottom: 4%;
+  width: 20%;
+}
+
+.carousel-footer{
+  padding: 2%;
+}
+/* Portfolio */
+
+#Portfolio{
+  background-color: #d3d5fd;
+  text-align: center;
+  padding: 2% 0.5%;
+}
+
+.port-img{
+  height: auto;
+}
+
+.port-tag{
+line-height: 1.5;
+padding-bottom: 1%;
+}
+
+.picture-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+  justify-items: center;
+  grid-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.grid-box img{
+  width: 100%;
+}
+
+#Portfolio h3{
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 3rem;
+}
+
+#land-ph{
+  padding: 2% 0;
+}
+
+#contact{
+  text-align: left;
+  padding: 2%;
+  background-color: #dedffc;
+}
+
+#contact h1, h3{
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+#footer{
+  text-align: center;
+  background-color: #dedffc;
+  line-height: 1;
+  padding-bottom: 1%;
+}
+
+.social-icon{
+  margin: 10px 20px;
+}
+
+.social{
+  font-size: 1.5rem;
+}
